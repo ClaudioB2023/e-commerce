@@ -1,25 +1,62 @@
-<!--Página Principal-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheeet" href="styles/index.css">
-       
-    <title>Document</title>
+    <title>Projeto E-commerce</title>
+    <!--link de referência para configuração da página, usando o arquivo index.css como referência-->>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <header class= "cabecalho">
+    <header class="hero">
         <nav>
             <ul>
-                <li> <a href="#">Início</a></li>
-                <li> <a href="#">Blog</a></li>
-                <li> <a href="#">Cursos</a></li>
+                <!--Menu em Lista-->
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Cursos</a></li>
             </ul>
         </nav>
-
+        <div class="hero-content">
+            <h1>Cursos Ser Frontend</h1>
+            <p>Tudo o que precisa saber para iniciar a carreira</p>
+        </div>
     </header>
-<footer>    
-</footer>
+    <!--cada documento tem apenas 1 main -->
+    <main>
+        <section>
+
+            <article>
+                <header>
+                    <!--Título 1 em tamanho h2-->
+                    <h2>O CSS</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vitae, excepturi porro adipisci doloribus <a href="#">GOOGLE</a> soluta fugiat non quo. Ab, possimus? Quidem aperiam laboriosam laborum amet reprehenderit, consectetur voluptatibus quaerat.</p>
+                <a href="#" class="btn">Clique aqui, Saiba mais</a>
+            </article>
+
+            <article>
+                <header>
+                    <!--Título 2 em tamanho h2-->
+                    <h2>O Java</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vitae, excepturi porro adipisci doloribus soluta fugiat non quo. Ab, possimus? Quidem aperiam laboriosam laborum amet reprehenderit, consectetur voluptatibus quaerat.</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </article>
+
+            <article>
+                <header>
+                    <!--Título 3 em tamanho h2-->
+                    <h2>O Javascript</h2>
+                </header>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At sint vitae, excepturi porro adipisci doloribus soluta fugiat non quo. Ab, possimus? Quidem aperiam laboriosam laborum amet reprehenderit, consectetur voluptatibus quaerat.</p>
+                <a href="#" class="btn">Saiba mais</a>
+            </article>
+            
+        </section>
+    </main>
+    <!--Rodapé-->
+    <footer class="rodape">
+        CopyRigth &copy; Bis2Bis - Cláudio 2024
+    </footer>
 </body>
 </html>
